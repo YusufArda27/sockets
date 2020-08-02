@@ -1,0 +1,25 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "sockets",
+  "homepage": "https://yusufarda27.github.io/sockets/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d ins"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/YusufArda27/ToDoVue.git"
+  },
+  "author": "YusufArda27",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
